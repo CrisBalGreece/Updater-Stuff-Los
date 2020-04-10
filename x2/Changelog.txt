@@ -1,0 +1,238 @@
+====================
+     04-08-2020
+====================
+
+   April security patches r33
+   Vannila build
+
+====================
+
+====================
+     04-07-2020
+====================
+
+     April security patches r33
+   * x2 vendor/overlay/
+     long press actions
+   * x2 frameworks/base/
+     fixed AOD 
+
+====================
+     04-06-2020
+====================
+
+   * x2 frameworks/base/
+     tehthering fixes
+   * x2 vendor/overlay/
+     audio fixes
+   * x2 frameworks/base/
+     enabled gestures overlay 
+
+====================
+     04-05-2020
+====================
+
+   * x2 rameworks/base/
+     fingerprint fixes merged 8996common overlay
+   * x2 added modified pixel gapps
+   • Android Sec Patch R33 Merged
+  • Added Firmware & Recovery PlaceHolder In     DerpQuest About
+  • Fixed system crashing after connected to Android Auto or started screen record
+
+====================
+     04-04-2020
+====================
+
+
+   * build/make/
+25c46faa8 build: envsetup: Introduce 'aospremote' function
+
+   * manifest/
+6447431 manifest: Track scripts repo
+
+   * scripts/
+e6e0174 scripts: aosp-merger: Save local branches to a file before merging
+d5924db scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
+85fe5de scripts: aosp-merger: Add and update merge blacklist
+14dbb80 scripts: aosp-merger: Reworked the script
+0aaccf6 scripts: Nuke all unneeded scripts
+
+====================
+     04-03-2020
+====================
+
+
+   * packages/apps/DerpQuest/
+6887b2e DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+
+====================
+     04-02-2020
+====================
+
+
+   * frameworks/base/
+1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
+
+   * frameworks/opt/telephony/
+f5dddf42e Fix to block data call request for no change in Data RAT
+1071e4f84 Use appropriate method to query UiccCard object
+486b3173c Reset preferred APN setting after restoring default APNs
+7dcc9244b Fix non-roaming overlay not work issue.
+bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
+864739ba2 Fix attach issue due to wrong attach apn
+085d2cc0c Add Null check to getIccId.
+b9f7ad002 MSIM:Fix iccid issue during android upgrade.
+d6feb02a7 Fix iccid issue during android upgrade.
+42c022365 Emergency Number Implementation for SS & DS
+543210a38 Telephony: Get SIM card capacity of SMS
+904322f01 Fix data deactivate issue due to intermediate network requests
+3e6b35bdc Add check for CSIM application presence
+7baf27432 Use tcp buffer values for rat LTE_CA
+0c8896e27 Fix to release partial wakelock for SRVCC handover.
+6648bd79a Refresh SIM operator numeric for multi-mode SIM
+524a63cde Delay intialization of subscription listener
+26b4902c5 Fix the deregistration which happens soon after registration.
+13ea5d3d5 Don't unregister supplementary service notification.
+
+   * manifest/
+c7eb721 manifest: Track proton-clang
+
+====================
+     04-01-2020
+====================
+
+
+   * frameworks/base/
+ae5a88e322a DisplayPolicy: Fix watchdog when adding new display
+
+   * packages/apps/DerpQuest/
+7ec1f89 DerpQuest: Add device specific links support Maintainers should overlay over about_device_fw_ver about_device_fw_link about_device_recovery_ver and about_device_recovery_link * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
+
+   * prebuilts/clang/host/linux-x86/
+74573a74 Update prebuilt Clang to r377782c.
+
+   * vendor/overlay/
+2c932b9 Merge pull request #5 from amanrajOO7/ten
+c1aeb1a Overlay: Add OnePlus Dark Primary
+
+====================
+     03-31-2020
+====================
+
+
+   * frameworks/base/
+d369d0fef29 SystemUI: simplify qs tile helper
+
+   * packages/resources/devicesettings/
+0b16352 Automatic translation import
+
+   * prebuilts/clang/host/linux-x86/clang-proton/
+0083ce0 Update to 20200330 build
+
+   * vendor/qcom/opensource/fm-commonsys/
+cc7dc91 Automatic translation import
+
+====================
+     03-28-2020
+====================
+- Added NavBar and gestures by default
+- Added a toggle for the QS tint
+- Improved the qstint then previous build
+- Allowed to backup LS clock & date styles values
+- Added a permission group for signature spoofing
+- Make sure media artwork blur restored radius value is valid
+- Added full accent sammy clock style
+- Brand new colorful and shape adaptable icons under DerpQuest section
+- Added full Greek translation of Settings and SystemUI
+- Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
+- For this update clean flash needed
+=================
+Device x2 Changelog
+=================
+- Clean flash needed for 03-28-2020 build
+- Added OpenGapps nano as default Gapps
+- Fixed fingerprint response after system restart
+- Build LDAC decoder library 
+- Update blobs 
+- Update CNE 
+- Partial Update RIL/IMS
+- Update WiFi Display from.8.6.r1-03400-89xx.0
+- Update time service from .8.6.r1-03400-89xx.0 
+- Update thermal blobs from.8.6.r1-03400-89xx.0 
+- Update sensors from .8.6.r1-03400-89xx.0 
+- Update Power-off Alarm from .8.6.r1-03400-89xx.0
+- Update perf blobs/configs from .8.6.r1-03400-89xx.0
+- Update Media from .8.6.r1-03400-89xx.0
+- Update keystore from 8.6.r1-03400-89xx.0 
+- Update Graphics stack from .8.6.r1-03400-89xx.0
+- Update GPS from .8.6.r1-03400-89xx.0
+- Update Gatekeeper from .8.6.r1-03400-89xx.0
+- Update DRM/Widevine from .8.6.r1-03400-89xx.0
+- Update CNE from 8.6.r1-03400-89xx.0 
+- Update charger from 8.6.r1-03400-89xx.0
+- Update Bluetooth from .8.6.r1-03400-89xx.0
+- Update Audio/ACDB from .8.6.r1-03400-89xx.0 
+- Update ADSP blobs from .8.6.r1-03400-89xx.0
+- Fixed BT calling maybe thanks to ThE_MarD
+- OTA I think you can update via ota now
+====================
+     03-26-2020
+====================
+LeMax2
+Official build is out
+Updated device tree
+Updated common features
+Updated vendor (bluetooth & sounds)
+Including BlackScreen-7.1
+====================
+     03-25-2020
+====================
+No changes
+====================
+     03-24-2020
+====================
+
+   * frameworks/base/
+907d2d85481 QS: Add and use Mobile Data panel
+595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
+
+   * packages/apps/Settings/
+b578bde80c QS panels: fix data usage display on mobile panel
+ac41b89738 QS panels: Improvements
+6d5db55f06 panels: Add Mobile Data panel
+
+====================
+     03-23-2020
+====================
+
+
+   * frameworks/base/
+60490e7aec7 base: Update Greek translation (#9)
+
+   * packages/apps/DerpQuest/
+2239436 DerpQuest: Add Greek translation
+
+   * packages/apps/Settings/
+785131a25d Settings: Add greek translation
+
+   * vendor/aosip/
+cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
+
+====================
+     03-22-2020
+====================
+No changes
+
+====================
+     03-21-2020
+====================
+
+
+   * frameworks/base/
+07e899ec4ef base: Make sure media artwork blur restored radius value is valid
+
+====================
+     03-20-2020
+====================
+
+
