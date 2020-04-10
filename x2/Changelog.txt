@@ -1,9 +1,9 @@
 ====================
-     04-08-2020
+     04-10-2020
 ====================
 
-   April security patches r33
-   Vannila build
+   * x2
+     Official Vanilla build is out
 
 ====================
 
