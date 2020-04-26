@@ -1,238 +1,233 @@
 ====================
-     04-11-2020
+     04-25-2020
 ====================
 
-   * x2
-     Official Vanilla build is out
+[device/qcom/sepolicy]
+[device/qcom/sepolicy-legacy]
+[device/qcom/sepolicy-legacy-um]
+[device/aosip/sepolicy]
+[system/sepolicy]
+Updated sepolicies
+Initial enforcing build
+
+x2 device
+DerpFest Vanilla-x2 - 20200426
+
+*Changelog*
+Updated sepolicies
+Initial enforcing build
+Added Android 11/Notification panel, UI interface, Heads UP and QS tiles
+Removed the junky LockScreen clock date animation
+Redistribute QS tile on orientation change
+Moved brightness slider settings out of tuner - Adds the ability to back em up as the rest and fixes some bugs related
+In-rom changelog got a new look, and is more readable and user friendly now
+Set a default custom QS header image
+Make sure the padding changes in QS header only apply if a header is really selected
+Reverted RGB picker (was causing issues on some 3rd party apps)
+Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
+Hide notch options
+Some bluetooth related fixes
+Screen recording lags fixed
+Added "R style" notification titles
+Added new HeadsUp settings (Blacklist, stoplist, duration, snooze...)
+Allow toggling between the new QS panels and the old in-qs view
+Fixed a bug where old QS detail view UI would show instead of panels
+Fixed some translations related bugs
+Tuned some dimens to make StatusBar icons equal in size and padding
+And more bug fixes
+100% Forgot stuff - But this is it roughly
+by: crisbalgreece (crisbaladim@yahoo.gr)
 
 ====================
-
-====================
-     04-07-2020
+     04-24-2020
 ====================
 
-     April security patches r33
-   * x2 vendor/overlay/
-     long press actions
-   * x2 frameworks/base/
-     fixed AOD 
+[frameworks/native]
+SurfaceFlinger: Exclude CAF extensions from non-QC devices <9 months ago> [9d0665442]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+input: Adjust priority <3 years, 6 months ago> [31ac950e4]
+by: Steve Kondik (steve@cyngn.com)
+surfaceflinger: Merge caf changes <5 months ago> [23d927fc9]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
 
 ====================
-     04-06-2020
+     04-23-2020
 ====================
 
-   * x2 frameworks/base/
-     tehthering fixes
-   * x2 vendor/overlay/
-     audio fixes
-   * x2 frameworks/base/
-     enabled gestures overlay 
+[frameworks/native]
+SurfaceFlinger: Exclude CAF extensions from non-QC devices <9 months ago> [9d0665442]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+input: Adjust priority <3 years, 6 months ago> [31ac950e4]
+by: Steve Kondik (steve@cyngn.com)
+surfaceflinger: Merge caf changes <5 months ago> [23d927fc9]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
 
 ====================
-     04-05-2020
+     04-22-2020
 ====================
 
-   * x2 rameworks/base/
-     fingerprint fixes merged 8996common overlay
-   * x2 added modified pixel gapps
-   • Android Sec Patch R33 Merged
-  • Added Firmware & Recovery PlaceHolder In     DerpQuest About
-  • Fixed system crashing after connected to Android Auto or started screen record
+[frameworks/native]
+Merge "add the OMX_VIDEO_CodingAV1 in the OMX_VIDEO_CODINGTYPE" <6 months ago> [1ede4de92]
+by: Hung-ying Tyan (tyanh@google.com)
+
 
 ====================
-     04-04-2020
+     04-21-2020
 ====================
-
-
-   * build/make/
-25c46faa8 build: envsetup: Introduce 'aospremote' function
-
-   * manifest/
-6447431 manifest: Track scripts repo
-
-   * scripts/
-e6e0174 scripts: aosp-merger: Save local branches to a file before merging
-d5924db scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
-85fe5de scripts: aosp-merger: Add and update merge blacklist
-14dbb80 scripts: aosp-merger: Reworked the script
-0aaccf6 scripts: Nuke all unneeded scripts
+ Android R Heads up
+Android R Notifications and QS
 
 ====================
-     04-03-2020
+     04-20-2020
 ====================
 
+[frameworks/base]
+FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
+by: Demon000 (demonsingur@gmail.com)
+FODCircleView: Fix position on keyguard if cutout is hidden <2 months ago> [04e1dc497ba]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: QS: Allow toggling panels [1/2] <4 days ago> [13258222a76]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
-   * packages/apps/DerpQuest/
-6887b2e DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+[packages/apps/Settings]
+notch-city: Add 3 mode display cutout handler [3/3] (#9) <4 days ago> [f107e52fa4]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[system/bt]
+Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
+by: Luke Zhang (lukez@codeaurora.org)
+Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
+by: Srinu Jella (sjella@codeaurora.org)
+Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
+by: cb (billchen1977@gmail.com)
+
+[vendor/aosip]
+vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <4 days ago> [2753620]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
 
 ====================
-     04-02-2020
+     04-19-2020
 ====================
 
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <6 days ago> [9db95ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+manifest: Track scripts repo <3 weeks ago> [f65a0bb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * frameworks/base/
-1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
+[frameworks/base]
+base: Make 'R style' notification headers toggleable [1/2] <5 days ago> [f6710cd9ba8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Implement R style notification section headers <2 weeks ago> [25f7dc3bcf2]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "Hide gentle notification header independently of section priorities" <5 days ago> [51303bd9fd9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: Make gentle notifications header toggleable [1/2]" <5 days ago> [14b8bb6f215]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * frameworks/opt/telephony/
-f5dddf42e Fix to block data call request for no change in Data RAT
-1071e4f84 Use appropriate method to query UiccCard object
-486b3173c Reset preferred APN setting after restoring default APNs
-7dcc9244b Fix non-roaming overlay not work issue.
-bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
-864739ba2 Fix attach issue due to wrong attach apn
-085d2cc0c Add Null check to getIccId.
-b9f7ad002 MSIM:Fix iccid issue during android upgrade.
-d6feb02a7 Fix iccid issue during android upgrade.
-42c022365 Emergency Number Implementation for SS & DS
-543210a38 Telephony: Get SIM card capacity of SMS
-904322f01 Fix data deactivate issue due to intermediate network requests
-3e6b35bdc Add check for CSIM application presence
-7baf27432 Use tcp buffer values for rat LTE_CA
-0c8896e27 Fix to release partial wakelock for SRVCC handover.
-6648bd79a Refresh SIM operator numeric for multi-mode SIM
-524a63cde Delay intialization of subscription listener
-26b4902c5 Fix the deregistration which happens soon after registration.
-13ea5d3d5 Don't unregister supplementary service notification.
-
-   * manifest/
-c7eb721 manifest: Track proton-clang
 
 ====================
-     04-01-2020
+     04-18-2020
 ====================
 
+[frameworks/base]
+aosipUtils: Use the right config resource for notch detection <5 days ago> [8e3771e25f5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * frameworks/base/
-ae5a88e322a DisplayPolicy: Fix watchdog when adding new display
-
-   * packages/apps/DerpQuest/
-7ec1f89 DerpQuest: Add device specific links support Maintainers should overlay over about_device_fw_ver about_device_fw_link about_device_recovery_ver and about_device_recovery_link * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
-
-   * prebuilts/clang/host/linux-x86/
-74573a74 Update prebuilt Clang to r377782c.
-
-   * vendor/overlay/
-2c932b9 Merge pull request #5 from amanrajOO7/ten
-c1aeb1a Overlay: Add OnePlus Dark Primary
 
 ====================
-     03-31-2020
+     04-17-2020
 ====================
 
+[frameworks/base]
+fw/b: Squash of app fw restriction commits (#12) <6 days ago> [805460e04ac]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
+by: Decad3nce (decad3nce@gmail.com)
 
-   * frameworks/base/
-d369d0fef29 SystemUI: simplify qs tile helper
+[packages/apps/Dialer]
+Automatic translation import <6 days ago> [e68f64ce3]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * packages/resources/devicesettings/
-0b16352 Automatic translation import
+[packages/apps/Launcher3]
+Automatic translation import <6 days ago> [d7dc19b68]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * prebuilts/clang/host/linux-x86/clang-proton/
-0083ce0 Update to 20200330 build
+[packages/apps/Messaging]
+Automatic translation import <6 days ago> [d9e932d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * vendor/qcom/opensource/fm-commonsys/
-cc7dc91 Automatic translation import
+[packages/apps/Settings]
+Settings: per-app cellular data, vpn and wifi restrictions (#8) <6 days ago> [c3ac5ba64d]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
-====================
-     03-28-2020
-====================
-- Added NavBar and gestures by default
-- Added a toggle for the QS tint
-- Improved the qstint then previous build
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Added full Greek translation of Settings and SystemUI
-- Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
-- For this update clean flash needed
-=================
-Device x2 Changelog
-=================
-- Clean flash needed for 03-28-2020 build
-- Added OpenGapps nano as default Gapps
-- Fixed fingerprint response after system restart
-- Build LDAC decoder library 
-- Update blobs 
-- Update CNE 
-- Partial Update RIL/IMS
-- Update WiFi Display from.8.6.r1-03400-89xx.0
-- Update time service from .8.6.r1-03400-89xx.0 
-- Update thermal blobs from.8.6.r1-03400-89xx.0 
-- Update sensors from .8.6.r1-03400-89xx.0 
-- Update Power-off Alarm from .8.6.r1-03400-89xx.0
-- Update perf blobs/configs from .8.6.r1-03400-89xx.0
-- Update Media from .8.6.r1-03400-89xx.0
-- Update keystore from 8.6.r1-03400-89xx.0 
-- Update Graphics stack from .8.6.r1-03400-89xx.0
-- Update GPS from .8.6.r1-03400-89xx.0
-- Update Gatekeeper from .8.6.r1-03400-89xx.0
-- Update DRM/Widevine from .8.6.r1-03400-89xx.0
-- Update CNE from 8.6.r1-03400-89xx.0 
-- Update charger from 8.6.r1-03400-89xx.0
-- Update Bluetooth from .8.6.r1-03400-89xx.0
-- Update Audio/ACDB from .8.6.r1-03400-89xx.0 
-- Update ADSP blobs from .8.6.r1-03400-89xx.0
-- Fixed BT calling maybe thanks to ThE_MarD
-- OTA I think you can update via ota now
-====================
-     03-26-2020
-====================
-LeMax2
-Official build is out
-Updated device tree
-Updated common features
-Updated vendor (bluetooth & sounds)
-Including BlackScreen-7.1
-====================
-     03-25-2020
-====================
-No changes
-====================
-     03-24-2020
-====================
+[vendor/aosip]
+changelog: Improve Changelog generator (#18) <7 days ago> [c5d328d]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
 
-   * frameworks/base/
-907d2d85481 QS: Add and use Mobile Data panel
-595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
+[vendor/overlay]
+overlay: Squash revert RGB picker [4/5] <11 days ago> [7818d9c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+overlays: Add Flame primary <7 weeks ago> [17bf599]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: Cleanup hardcoded colors and use/overlay AOSP values <7 weeks ago> [0e6009f]
+by: Christian Oder (myself5@carbonrom.org)
+overlay: remove background_floating_device_default_dark exposure <7 weeks ago> [0f201e5]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: don't hardcode Screenrecord dialog color <7 weeks ago> [eac517d]
+by: Christian Oder (myself5@carbonrom.org)
+overlays: Remove more duplicate exposures <7 weeks ago> [4e34fec]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlays: Remove duplicate exposure for notifications <7 weeks ago> [33e4096]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: Nuke accent overlays [3/3] <8 weeks ago> [e86c14f]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Seperate Settings exposures from system for primarys <8 weeks ago> [c5518ea]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Notification guts: Adapt to system theme <9 weeks ago> [0d10ffc]
+by: Alex (du.alexcruz@gmail.com)
+overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
+by: Alex (du.alexcruz@gmail.com)
+overlay: etc: Add Android.mk <9 weeks ago> [d30b1ff]
+by: Anirudh Gupta (anirudhgupta109@aosip.dev)
+Live captions: Have it follow system accent / fix up navbar <2 months ago> [e009aa3]
+by: Alex (du.alexcruz@gmail.com)
+overlay: add EmptyOverlay <3 months ago> [948d2a8]
+by: maxwen (max.weninger@gmail.com)
+overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
+by: jrizzoli (joey@lineageos.org)
+overlay: Extend icon previews list <3 months ago> [4ef3a97]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
+by: Aman Singh (amankumarsingh1412@gmail.com)
 
-   * packages/apps/Settings/
-b578bde80c QS panels: fix data usage display on mobile panel
-ac41b89738 QS panels: Improvements
-6d5db55f06 panels: Add Mobile Data panel
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling heads up by using a master switch <7 days ago> [6d98cc8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add HeadsUp blacklists [2/2] <7 days ago> [1fdaee0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <9 days ago> [1c0272e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-====================
-     03-23-2020
-====================
-
-
-   * frameworks/base/
-60490e7aec7 base: Update Greek translation (#9)
-
-   * packages/apps/DerpQuest/
-2239436 DerpQuest: Add Greek translation
-
-   * packages/apps/Settings/
-785131a25d Settings: Add greek translation
-
-   * vendor/aosip/
-cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
-
-====================
-     03-22-2020
-====================
-No changes
-
-====================
-     03-21-2020
-====================
-
-
-   * frameworks/base/
-07e899ec4ef base: Make sure media artwork blur restored radius value is valid
-
-====================
-     03-20-2020
-====================
+[system/netd]
+system/netd: Squash of app fw restriction commits (#1) <6 days ago> [e267aca3]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
 
