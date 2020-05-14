@@ -1,21 +1,13 @@
 ====================
-     05-13-2020
-====================
-[kernel]
-BS 7.1 OC is back
-by: CrisBalGreece
-====================
      05-11-2020
 ====================
 [system/product/priv-app/Settings]
 Fixed Menu keys shortcuts
-by: CrisBalGreece
 ====================
      05-10-2020
 ====================
 [kernel/x2]
-small kernel improvements
-by: CrisBalGreece
+small BS 7.1 improvements
 ====================
      05-09-2020
 ====================
