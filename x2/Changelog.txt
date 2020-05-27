@@ -1,124 +1,90 @@
 ====================
-     05-11-2020
+     05-26-2020
 ====================
-[system/product/priv-app/Settings]
-Fixed Menu keys shortcuts
-====================
-     05-10-2020
-====================
-[kernel/x2]
-small BS 7.1 improvements
-====================
-     05-09-2020
-====================
+
 [device/x2]
-Rebased all of my trees
-Added the open source consumerir HAL + bridge 
-Enabled VNDK
-Added a fix for miracast a
-Remotes Universal working 
-Permanently green tint fix on front camera 
-by: CrisBalGreece
+Fixed hide navigation pill on landscape
+Added SELinux switch
+Bug fixes for perm manager (log spam at boot gone)
+Allow choosing a custom pressed icon color for FOD (irrelevant to our device)
+Improved master switch divider visibility, and make it resistant to themes
+Enabled aux camera for 3rd party apps (added sepolicy rules)
+Added old circle battery style back
+Fixed detail view not showing for a few QS tiles
+Fixed wrong activity for longpress on LTE QS tile
+Allow showing StatusBar ticker for media- Updates to translations
+Added new QS icons
+Fixed some brightness values
+Removed Browser, LeEcoRemote and Music (user can pick any)
+Some kernel adjustments for better battery
+
 ====================
-     05-08-2020
+     05-21-2020
+====================
+
+[scripts]
+updater: fix typos in comments (#1) <8 days ago> [1dcf123]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <8 days ago> [a26e2f5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-20-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#59) <5 days ago> [f8a8ab4]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+
+====================
+     05-19-2020
 ====================
 
 [frameworks/base]
-Forward port CM Screen Security settings (1/2) <5 years ago> [f1456e72072]
-by: Michael Bestas (mikeioannina@gmail.com)
-
-
-====================
-     05-07-2020
-====================
-
-[frameworks/base]
-SystemUI: Make sure notification icons are sticked to the left <3 days ago> [767388cc33b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-06-2020
-====================
-
-[frameworks/base]
-SystemUI: Make sure volume expand icon points correctly <5 days ago> [a6c23be801e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-05-2020
-====================
-
-[manifest]
-Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <6 days ago> [f9288e2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <6 days ago> [9c45b91f0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [c7db185c8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-SystemUI: tint volume panel expand button to follow textColorSecondary <5 days ago> [32464ef7c41]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <6 days ago> [c38374bd0fd]
+base: Allow choosing a custom color for pressed FOD [1/2] <6 days ago> [bee6a79c40e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Dialer]
-Automatic translation import <6 days ago> [f58ec8e11]
+Automatic translation import <5 days ago> [0c2ebe97a]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [packages/apps/Launcher3]
-Automatic translation import <6 days ago> [f7c3480c1]
+Automatic translation import <5 days ago> [fa17e33a5]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <6 days ago> [19ba077]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [cce9edf72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/bt]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [8667d6a58]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-04-2020
-====================
-
-[manifest]
-Manifest for Android 10.0.0 Release 34 <6 days ago> [3900458]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[frameworks/base]
-build: Don't check for fingerprint mismatch <7 months ago> [98cf93a34f9]
-by: Dan Cartier (nospamdan1@gmail.com)
-SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <4 weeks ago> [23fd9a30a2a]
-by: deadmanxxd (deadmanxxd@gmail.com)
-Default Permissions: grant Storage Permission to GBoard <5 weeks ago> [b4ffd6bc13d]
-by: SuperDroidBond (superdroidbond@yahoo.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow toggling charging bolt [2/2] <9 days ago> [3f6ad2c]
+ColorPicker: Enable the reset button when setting a default at runtime <5 days ago> [20c139f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Enable file flashing for A-only aswell <7 days ago> [95788fc]
+DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <6 days ago> [0b646ec]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: aosp-merger: Split long echoes <7 days ago> [e3619af]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Would be nice to know what we're pushing <7 days ago> [c145641]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Only reset to new tags if there are changes <7 days ago> [cf6fd98]
+DerpQuest: Disable SELinux switch if unrooted <6 days ago> [336062d]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
+====================
+     05-18-2020
+====================
+
+[frameworks/base]
+DefaultPermissionGrantPolicy: Remove uneeded permissions <7 days ago> [4969c1d517f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add boot receiver for SELinux switch <7 days ago> [163bb69b14]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+privapp-permissions-elgoog: Remove google's settings intelligence <7 days ago> [514d741]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Grant default DND access to AOSP settings intelligence <7 days ago> [77a94bf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+Utils: Add root check function <6 days ago> [a817422]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
+by: Alex Cruz (mazdarider23@gmail.com)
