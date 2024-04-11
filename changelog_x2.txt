@@ -1,22 +1,92 @@
 ====================
-    04-04-2024     
+    11-04-2024     
 ====================
 
-# LineageOS Platform | Source Changelog
+# LineageOS 20.0 - Platform | Source Changelog
 
-- Merge tag 'android-security-13.0.0_r15' 
-- Merge March 2024 security patch
+The latest changes
+1 day ago
+Bump Security String to 2024-04-05
+2024-04-10 12:01 UTC (android_build)
+1 day ago
+[RESTRICT AUTOMERGE] Restrict WifiDialogActivity
+2024-04-10 12:00 UTC (android_packages_apps_Settings)
+1 day ago
+Fix security vulnerability that creates user with no restrictions when accountOptions are too long.
+2024-04-10 11:58 UTC (android_frameworks_base)
+1 day ago
+Stop marking apps as privileged if they are not signed properly.
+2024-04-10 11:58 UTC (android_frameworks_base)
+1 day ago
+isUserInLockDown can be true when there are other strong auth requirements
+2024-04-10 11:58 UTC (android_frameworks_base)
+1 day ago
+Don't store invalid pkgs when migrating filters
+2024-04-10 11:58 UTC (android_frameworks_base)
+1 day ago
+RESTRICT AUTOMERGE Added limitations for attributions to handle invalid cases
+2024-04-10 11:58 UTC (android_frameworks_base)
+2 days ago
+kernel: Support kernel modules via kbuild
+2024-04-09 04:00 UTC (android_vendor_lineage)
+10 days ago
+Dialer: convert VoicemailSecretCodeActivity to androidx
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Provide proper margin to back icon
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Replace image- with vector drawables
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Remove a few unused drawables
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Use a static symbol for the incall status bar icon
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Kill the Sprint HD call icon
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Increase icon size for the end call button
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Update icons with new Material Symbols
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Fix In-Call vibrations
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+Dialer: Fix sound settings not sticking
+2024-04-01 13:15 UTC (android_packages_apps_Dialer)
+10 days ago
+overlay: several Dialer VVM config fixes
+2024-04-01 13:15 UTC (android_vendor_lineage)
+12 days ago
+recovery_ui: Respect margin_height while drawing battery capacity status
+2024-03-30 14:15 UTC (android_bootable_recovery)
+13 days ago
+Add support for Nvidia convertible USB port
+2024-03-28 16:01 UTC (android_packages_apps_TvSettings)
+16 days ago
+Copy Steam Controller layouts for ble and wireless
+2024-03-25 23:36 UTC (android_device_lineage_atv)
+16 days ago
+Revert "Add steam controller key layouts"
+2024-03-25 23:36 UTC (android_device_lineage_atv)
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Import platform patches - 'android-security-13.0.0_r15'
+- Import platform security patches - 'android-security'
 - MaxPlus Unifications - implements
 - Bring back mock hidl power stats
 - Label perf 2.0
 - Add power.stats to satisfy FCM
 - Kernel changes for MaxPlus Sharp panel
-- Small system fixes...
+- Spoofed for MicroG
+- Added config for unlimited Gphotos by default
+- Small system fixes here and there...
 
 ====================
