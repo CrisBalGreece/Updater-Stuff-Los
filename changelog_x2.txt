@@ -1,79 +1,40 @@
 ====================
-    11-04-2024     
+    16-05-2024     
 ====================
 
 # LineageOS 20.0 - Platform | Source Changelog
 
 The latest changes
 1 day ago
-Bump Security String to 2024-04-05
-2024-04-10 12:01 UTC (android_build)
+Bump Security String to 2024-05-05
+2024-05-15 12:33 UTC (android_build)
 1 day ago
-[RESTRICT AUTOMERGE] Restrict WifiDialogActivity
-2024-04-10 12:00 UTC (android_packages_apps_Settings)
+Prioritize system toasts
+2024-05-15 12:32 UTC (android_frameworks_base)
 1 day ago
-Fix security vulnerability that creates user with no restrictions when accountOptions are too long.
-2024-04-10 11:58 UTC (android_frameworks_base)
+fix buffer overrun in eas_wtengine
+2024-05-15 12:31 UTC (android_external_sonivox)
 1 day ago
-Stop marking apps as privileged if they are not signed properly.
-2024-04-10 11:58 UTC (android_frameworks_base)
-1 day ago
-isUserInLockDown can be true when there are other strong auth requirements
-2024-04-10 11:58 UTC (android_frameworks_base)
-1 day ago
-Don't store invalid pkgs when migrating filters
-2024-04-10 11:58 UTC (android_frameworks_base)
-1 day ago
-RESTRICT AUTOMERGE Added limitations for attributions to handle invalid cases
-2024-04-10 11:58 UTC (android_frameworks_base)
-2 days ago
-kernel: Support kernel modules via kbuild
-2024-04-09 04:00 UTC (android_vendor_lineage)
+Track our own forks for 2024-05 ASB patching
+2024-05-15 12:31 UTC (android)
 10 days ago
-Dialer: convert VoicemailSecretCodeActivity to androidx
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Provide proper margin to back icon
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Replace image- with vector drawables
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Remove a few unused drawables
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Use a static symbol for the incall status bar icon
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Kill the Sprint HD call icon
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Increase icon size for the end call button
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Update icons with new Material Symbols
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Fix In-Call vibrations
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-Dialer: Fix sound settings not sticking
-2024-04-01 13:15 UTC (android_packages_apps_Dialer)
-10 days ago
-overlay: several Dialer VVM config fixes
-2024-04-01 13:15 UTC (android_vendor_lineage)
-12 days ago
-recovery_ui: Respect margin_height while drawing battery capacity status
-2024-03-30 14:15 UTC (android_bootable_recovery)
-13 days ago
-Add support for Nvidia convertible USB port
-2024-03-28 16:01 UTC (android_packages_apps_TvSettings)
-16 days ago
-Copy Steam Controller layouts for ble and wireless
-2024-03-25 23:36 UTC (android_device_lineage_atv)
-16 days ago
-Revert "Add steam controller key layouts"
-2024-03-25 23:36 UTC (android_device_lineage_atv)
+avbtool: Add retry to generate_fec_data()
+2024-05-06 16:56 UTC (android_external_avb)
+11 days ago
+Jelly: Inform CookieManager about cookie policy on create
+2024-05-05 11:30 UTC (android_packages_apps_Jelly)
+18 days ago
+lineage: Opt-in to shipping full recovery image by default
+2024-04-27 23:20 UTC (android_vendor_lineage)
+18 days ago
+overlay: Update Dialer VVM config
+2024-04-27 23:20 UTC (android_vendor_lineage)
+1 month ago
+Revert "Clear up the obsoleted cascading signal strength polling logic"
+2024-04-14 08:33 UTC (android_frameworks_opt_telephony)
+1 month ago
+Revert "Clear up the obsoleted cascading signal strength polling logic"
+2024-04-14 08:33 UTC (android_frameworks_opt_telephony)
 
 ----------------------------------------------------------------------
 
