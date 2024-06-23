@@ -1,53 +1,109 @@
 ====================
-    16-05-2024     
+    23-06-2024     
 ====================
 
 # LineageOS 20.0 - Platform | Source Changelog
 
 The latest changes
 1 day ago
-Bump Security String to 2024-05-05
-2024-05-15 12:33 UTC (android_build)
+Dialer: Make the database compatible with AOSP dialer again.
+2024-06-22 04:54 UTC (android_packages_apps_Dialer)
 1 day ago
-Prioritize system toasts
-2024-05-15 12:32 UTC (android_frameworks_base)
+Bump Security String to 2024-06-05
+2024-06-21 15:36 UTC (android_build)
 1 day ago
-fix buffer overrun in eas_wtengine
-2024-05-15 12:31 UTC (android_external_sonivox)
+Track our own forks for 2024-06 ASB patching
+2024-06-21 15:33 UTC (android)
 1 day ago
-Track our own forks for 2024-05 ASB patching
-2024-05-15 12:31 UTC (android)
+Use the values of the ptrs that we check
+2024-06-21 15:33 UTC (android_system_libfmq)
+1 day ago
+[libstatssocket] Added validation for adding new data into StatsEvent
+2024-06-21 15:32 UTC (android_packages_modules_StatsD)
+1 day ago
+[RESTRICT AUTOMERGE] AccessibilityManagerService: remove uninstalled services from enabled list after service update.
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Resolve message/conversation image Uris with the correct user id
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+[CDM][CMD] Check permissions for CDM shell commands
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Check hidden API exemptions
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Update media visibility on lock screen
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+[DO NOT MERGE][Autofill Framework] Add in check for intent filter when setting/updating service
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Add more checkKeyIntent checks to AccountManagerService.
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Hide window immediately if itself doesn't run hide animation
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Fix vulnerability in AttributionSource due to incorrect Binder call
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Fix error handling for non-dynamic permissions
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Check for NLS bind permission when rebinding services
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Verify URI permission for channel sound update from NotificationListenerService
+2024-06-21 15:30 UTC (android_frameworks_base)
+1 day ago
+Added throttle when reporting shortcut usage
+2024-06-21 15:30 UTC (android_frameworks_base)
+8 days ago
+Improve UART baud rate handling
+2024-06-15 07:07 UTC (android_hardware_broadcom_libbt)
+8 days ago
+hardware: recognize SYN chip in hw_config_cback
+2024-06-15 07:07 UTC (android_hardware_broadcom_libbt)
+8 days ago
+hardware: increase firmware settlement delay
+2024-06-15 07:07 UTC (android_hardware_broadcom_libbt)
 10 days ago
-avbtool: Add retry to generate_fec_data()
-2024-05-06 16:56 UTC (android_external_avb)
+Updater: Add /mnt/scratch detection
+2024-06-12 22:58 UTC (android_packages_apps_Updater)
+10 days ago
+Updater: Handle ErrorCode::kUpdateAlreadyInstalled more gracefully
+2024-06-12 22:58 UTC (android_packages_apps_Updater)
 11 days ago
-Jelly: Inform CookieManager about cookie policy on create
-2024-05-05 11:30 UTC (android_packages_apps_Jelly)
-18 days ago
-lineage: Opt-in to shipping full recovery image by default
-2024-04-27 23:20 UTC (android_vendor_lineage)
-18 days ago
-overlay: Update Dialer VVM config
-2024-04-27 23:20 UTC (android_vendor_lineage)
-1 month ago
-Revert "Clear up the obsoleted cascading signal strength polling logic"
-2024-04-14 08:33 UTC (android_frameworks_opt_telephony)
-1 month ago
-Revert "Clear up the obsoleted cascading signal strength polling logic"
-2024-04-14 08:33 UTC (android_frameworks_opt_telephony)
+Correct logic for obtaining the path to full recovery image
+2024-06-12 03:56 UTC (android_build)
+11 days ago
+WiredAccessoryManager: replace every non digit character
+2024-06-11 18:23 UTC (android_frameworks_base)
+17 days ago
+Updater: Use https:// for wiki URL
+2024-06-06 08:38 UTC (android_packages_apps_Updater)
+25 days ago
+Parts: Fix writing profile to NFC tag
+2024-05-29 12:33 UTC (android_packages_apps_LineageParts)
+28 days ago
+thermal-hal: Enable thermal_hal support for yupik variants
+2024-05-25 21:40 UTC (android_hardware_qcom_thermal)
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Import platform security patches - 'android-security'
-- MaxPlus Unifications - implements
-- Bring back mock hidl power stats
-- Label perf 2.0
-- Add power.stats to satisfy FCM
-- Kernel changes for MaxPlus Sharp panel
-- Spoofed for MicroG
-- Added config for unlimited Gphotos by default
+- Import June platform security patches - 'android-security'
+- Return back to our FP
+- Update changelog and configs
+- rro overlays carrier and Tethering fixup
+- overlay_lineage:Nuke fp cleanup
+- rro_overlays:WiFiOverlay configs for UA region
+- Revert Carrier_config_overlay back to overlays
+- WifiOverlay: Disable WPA2 -> WPA3 upgrade.
+- Small Kernel changes
+- Small thermal fixes
 - Small system fixes here and there...
 
 ====================
