@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1719150918,
-      "filename": "lineage-20.0-20240623-UNOFFICIAL-x2.zip",
-      "id": "83693f6705e30e86f7e311f65b9abcf74a1d481cd6143a28d750b6bd41955571",
+      "datetime": 1721667205,
+      "filename": "lineage-20.0-20240722-UNOFFICIAL-x2.zip",
+      "id": "64b42716750d5bf8516dcc6aa39a4484bceba5b3acecd0490b89939ae54f5776",
       "romtype": "Unofficial",
-      "size": 916305316,
-      "url": "https://sourceforge.net/projects/lineageos20/files/x2/lineage-20.0-20240623-UNOFFICIAL-x2.zip/download",
+      "size": 916293779,
+      "url": "https://sourceforge.net/projects/lineageos20/files/x2/lineage-20.0-20240722-UNOFFICIAL-x2.zip/download",
       "version": "20.0"
     }
   ]
