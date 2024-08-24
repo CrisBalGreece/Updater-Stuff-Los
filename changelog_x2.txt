@@ -1,124 +1,92 @@
 ====================
-    22-07-2024     
+    24-08-2024     
 ====================
 
 # LineageOS 20.0 - Platform | Source Changelog
 
-The latest changes
-18 hours ago
-apns: Fix broken entries
-2024-07-21 23:23 UTC (android_vendor_lineage)
-1 day ago
-overlay: wifionly: Settings: Hide SIM settings
-2024-07-21 16:23 UTC (android_vendor_lineage)
-1 day ago
-overlay: wifionly: Specify that we don't have SIM support
-2024-07-21 16:23 UTC (android_vendor_lineage)
-1 day ago
-overlay: wifionly: Mark as WiFi-only
-2024-07-21 16:23 UTC (android_vendor_lineage)
-1 day ago
-overlay: wifionly: Set network and radio attributes
-2024-07-21 16:23 UTC (android_vendor_lineage)
-1 day ago
-config: Ship EmergencyInfo on WiFi only tablets
-2024-07-21 16:23 UTC (android_vendor_lineage)
-2 days ago
-fixup! sensitive_pn: Update RUS numbers
-2024-07-19 19:39 UTC (android_vendor_lineage)
-3 days ago
-Updater: Append trailing slash to upgrade url
-2024-07-19 17:29 UTC (android_packages_apps_Updater)
-3 days ago
-apns: Order properly
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apns: Fix invalid entries for WOM (chile)
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-ADD APN for DIGI Spain IMS and DIGI Italy IMS
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apns: Move Hits
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apns: Add 4ka SK
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apn: Add VTB Mobile
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apn: Add Tinkoff Mobile
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apn: Add SberMobile
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-apn: Add GPB Mobile
-2024-07-19 16:57 UTC (android_vendor_lineage)
-3 days ago
-sensitive_pn: Update RUS numbers
-2024-07-19 16:57 UTC (android_vendor_lineage)
-4 days ago
-Bump Security String to 2024-07-05
-2024-07-18 12:05 UTC (android_build)
-4 days ago
-Prevent insertion in other users storage volumes
-2024-07-18 12:05 UTC (android_packages_providers_MediaProvider)
-4 days ago
-[statsd] Make executor thread a class member of MultiConditionTrigger
-2024-07-18 12:05 UTC (android_packages_modules_StatsD)
-4 days ago
-Fix an authentication bypass bug in SMP
-2024-07-18 12:05 UTC (android_packages_modules_Bluetooth)
-4 days ago
-[RESTRICT AUTOMERGE] Restrict WifiDppConfiguratorActivity
-2024-07-18 12:04 UTC (android_packages_apps_Settings)
-4 days ago
-Verify UID of incoming Zygote connections.
-2024-07-18 12:04 UTC (android_frameworks_base)
-4 days ago
-Fix security vulnerability of non-dynamic permission removal
-2024-07-18 12:04 UTC (android_frameworks_base)
-4 days ago
-Fix security vulnerability allowing apps to start from background
-2024-07-18 12:04 UTC (android_frameworks_base)
-4 days ago
-[PM] Send ACTION_PACKAGE_CHANGED when mimeGroups are changed
-2024-07-18 12:04 UTC (android_frameworks_base)
+Revert "cm: enable lockscreen rotation option"
+2024-08-21 08:10 UTC (android_vendor_lineage)
+9 days ago
+fixup! Settings: Add setup UI for minimum delay between an app's notification sounds
+2024-08-15 16:56 UTC (android_packages_apps_Settings)
+12 days ago
+Bump Security String to 2024-08-05
+2024-08-12 12:05 UTC (android_build)
+12 days ago
+Security fix for VPN app killable via lockscreen.
+2024-08-12 12:04 UTC (android_frameworks_base)
+12 days ago
+Fix heap-buffer overflow in sdp_utils.cc
+2024-08-12 11:57 UTC (android_packages_modules_Bluetooth)
+12 days ago
+Fix permission bypasses to multiple methods
+2024-08-12 11:57 UTC (android_packages_modules_Bluetooth)
+12 days ago
+Keep track of DeathMonitor cookies
+2024-08-12 11:56 UTC (android_hardware_interfaces)
+12 days ago
+Use onUnlinked in health HAL
+2024-08-12 11:56 UTC (android_hardware_interfaces)
+12 days ago
+RESTRICT AUTOMERGE Fix READ/WRITE operation access issues on Restricted appOps.
+2024-08-12 11:56 UTC (android_frameworks_base)
+12 days ago
+Hide SAW subwindows
+2024-08-12 11:56 UTC (android_frameworks_base)
+12 days ago
+Add the protection to avoid data overflow in BinaryXmlSerializer.java
+2024-08-12 11:56 UTC (android_frameworks_base)
+12 days ago
+Restrict USB poups while setup is in progress
+2024-08-12 11:56 UTC (android_frameworks_base)
+12 days ago
+Rate limiting PiP aspect ratio change request
+2024-08-12 11:56 UTC (android_frameworks_base)
+12 days ago
+RESTRICT AUTOMERGE Backport preventing BAL bypass via bound service
+2024-08-12 11:56 UTC (android_frameworks_base)
+12 days ago
+StagefrightRecoder: Disabling B-frame support
+2024-08-12 11:56 UTC (android_frameworks_av)
+12 days ago
+libmediatranscoding: handle death recipient cookie ownership differently
+2024-08-12 11:56 UTC (android_frameworks_av)
+15 days ago
+BatteryMeterView: Battery icon available by default
+2024-08-09 08:40 UTC (android_frameworks_base)
+15 days ago
+fixup! BatteryMeterView: Hide icon on battery-less devices
+2024-08-09 08:40 UTC (android_frameworks_base)
 20 days ago
-roomservice: Set timeout when accessing GitHub
-2024-07-02 00:28 UTC (android_vendor_lineage)
+kernel: Better x86 support
+2024-08-03 22:08 UTC (android_vendor_lineage)
 20 days ago
-updater: Support loading dynamic partition metadata from OTA
-2024-07-02 00:26 UTC (android_bootable_recovery)
-20 days ago
-releasetools: Pass non-sparse super_empty.img to update_dynamic_partitions()
-2024-07-02 00:26 UTC (android_build)
-20 days ago
-releasetools: build_super_image: Do not set readonly attr
-2024-07-02 00:26 UTC (android_build)
-20 days ago
-build: Enable super image build rules depending on single super block device
-2024-07-02 00:26 UTC (android_build)
-20 days ago
-fixup! liblp: Allow to flash on bigger block device
-2024-07-02 00:26 UTC (android_system_core)
+roomservice: Add support for dry run
+2024-08-03 22:08 UTC (android_vendor_lineage)
 22 days ago
-Messaging: Allow deletion of messages without a sim inserted
-2024-06-30 11:34 UTC (android_packages_apps_Messaging)
-26 days ago
-keylayouts: Nintendo ProCon: Map it like stock does
-2024-06-26 04:47 UTC (android_frameworks_base)
-26 days ago
-Allow factory reset without PERSISTENT_DATA_BLOCK_SERVICE
-2024-06-26 04:46 UTC (android_packages_apps_Settings)
+fixup! StatusBarSettings: Hide battery category on battery-less devices
+2024-08-02 07:03 UTC (android_packages_apps_LineageParts)
+23 days ago
+StatusBarSettings: Hide battery category on battery-less devices
+2024-08-01 12:08 UTC (android_packages_apps_LineageParts)
+25 days ago
+BatteryMeterView: Hide icon on battery-less devices
+2024-07-29 23:45 UTC (android_frameworks_base)
+25 days ago
+Keyguard: Hide battery indication on battery-less devices
+2024-07-29 23:45 UTC (android_frameworks_base)
+27 days ago
+lineage: Label batteryless custom health aidl service
+2024-07-28 11:25 UTC (android_device_lineage_sepolicy)
+27 days ago
+health: Introduce batteryless aidl HAL
+2024-07-28 11:25 UTC (android_hardware_lineage_interfaces)
 
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
 
-- Import July platform security patches - 'android-security'
+- Import August 2024 platform security patches - 'android-security'
 - Update changelog and configs
 - Small Kernel changes
 - Small thermal fixes
