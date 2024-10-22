@@ -1,69 +1,41 @@
 ====================
-    28-09-2024     
+    22-10-2024     
 ====================
 
 # LineageOS 20.0 - Platform | Source Changelog
 
+Bump Security String to 2024-10-05
+2024-10-20 14:11 UTC (android_build)
+1 day ago
+RESTRICT AUTOMERGE Disallow unexpected incoming HID connections
+2024-10-20 14:08 UTC (android_packages_modules_Bluetooth)
+1 day ago
+RESTRICT AUTOMERGE FRP bypass defense in App battery usage page
+2024-10-20 14:07 UTC (android_packages_apps_Settings)
+1 day ago
+Do not accept zip files with invalid headers.
+2024-10-20 14:01 UTC (android_libcore)
+1 day ago
+[RESTRICT AUTOMERGE] Check whether installerPackageName contains only valid characters
+2024-10-20 13:59 UTC (android_frameworks_base)
+1 day ago
+Prevent Sharing when FRP enforcement is in effect
+2024-10-20 13:59 UTC (android_frameworks_base)
+1 day ago
+Update AccountManagerService checkKeyIntent.
+2024-10-20 13:59 UTC (android_frameworks_base)
+1 day ago
+Fail parseUri if end is missing
+2024-10-20 13:59 UTC (android_frameworks_base)
+24 days ago
 fixup!^2 BatteryMeterView: Hide icon on battery-less devices
 2024-09-28 08:43 UTC (android_frameworks_base)
-3 days ago
+27 days ago
 Disable OMX for 64b_only devices.
 2024-09-25 00:53 UTC (android_build)
-4 days ago
+28 days ago
 Silence most cast receiver logging
 2024-09-23 22:55 UTC (android_device_lineage_atv)
-15 days ago
-Bump Security String to 2024-09-05
-2024-09-13 15:24 UTC (android_build)
-15 days ago
-Allow system_server to call IKeystoreMaintenance.deleteAllKeys()
-2024-09-13 15:23 UTC (android_system_sepolicy)
-15 days ago
-Resolve cross-user image exploit for conference status hints
-2024-09-13 15:22 UTC (android_packages_services_Telecomm)
-15 days ago
-Unbind CallScreeningService when timeout reached.
-2024-09-13 15:22 UTC (android_packages_services_Telecomm)
-15 days ago
-DO NOT MERGE Unbind CS if connection is not created within 15 seconds.
-2024-09-13 15:22 UTC (android_packages_services_Telecomm)
-15 days ago
-RESTRICT AUTOMERGE Fix to restrict admin from granting permission to a sensor permission group
-2024-09-13 15:22 UTC (android_packages_modules_Permission)
-15 days ago
-Disallow connect with key length downgrade
-2024-09-13 15:21 UTC (android_packages_modules_Bluetooth)
-15 days ago
-Disallow connect with Secure Connections downgrade
-2024-09-13 15:21 UTC (android_packages_modules_Bluetooth)
-15 days ago
-Add support for checking security downgrade
-2024-09-13 15:21 UTC (android_packages_modules_Bluetooth)
-15 days ago
-Replace getCallingActivity() with getLaunchedFromPackage()
-2024-09-13 15:12 UTC (android_packages_apps_Settings)
-15 days ago
-RESTRICT AUTOMERGE Restrict Settings Homepage prior to provisioning
-2024-09-13 15:12 UTC (android_packages_apps_Settings)
-15 days ago
-Ignore fragment attr from ext authenticator resource
-2024-09-13 15:12 UTC (android_packages_apps_Settings)
-15 days ago
-Limit wifi item edit content's max length to 500
-2024-09-13 15:12 UTC (android_packages_apps_Settings)
-15 days ago
-RESTRICT AUTOMERGE Delete keystore keys from RecoveryService.rebootRecoveryWithCommand()
-2024-09-13 15:11 UTC (android_frameworks_base)
-15 days ago
-DO NOT MERGE Ignore - Sanitized uri scheme by removing scheme delimiter
-2024-09-13 15:11 UTC (android_frameworks_base)
-15 days ago
-omx: check HDR10+ info param size
-2024-09-13 15:10 UTC (android_frameworks_av)
-23 days ago
-apn: Set correct apn for `Grameenphone`
-2024-09-05 13:11 UTC (android_vendor_lineage)
-
 
 ----------------------------------------------------------------------
 
