@@ -1,42 +1,236 @@
 ====================
-    22-10-2024     
+    2025-03-09     
 ====================
 
 # LineageOS 20.0 - Platform | Source Changelog
 
+Bump Security String to 2025-02-05
+2025-02-15 15:52 UTC (android_build)
+22 days ago
+libdm: Redact keys from dm-crypt targets when calling GetTable.
+2025-02-15 15:52 UTC (android_system_core)
+22 days ago
+Unbind CS if connection is not created within 15 seconds.
+2025-02-15 15:51 UTC (android_packages_services_Telecomm)
+22 days ago
+Reset permissions for not bonded device
+2025-02-15 15:51 UTC (android_packages_modules_Bluetooth)
+22 days ago
+RESTRICT AUTOMERGE backport "opp: validate that content uri belongs to current user"
+2025-02-15 15:51 UTC (android_packages_modules_Bluetooth)
+22 days ago
+Don't let profiles open the UserSettings overflow [DO NOT MERGE]
+2025-02-15 15:48 UTC (android_packages_apps_Settings)
+22 days ago
+Block the content scheme intent in AccountTypePreferenceLoader
+2025-02-15 15:48 UTC (android_packages_apps_Settings)
+22 days ago
+RESTRICT AUTOMERGE Use getLaunchedFromPackage instead of getCallingPackage
+2025-02-15 15:45 UTC (android_frameworks_base)
+22 days ago
+InputMethodSubtypeArray: prevent negative count injection
+2025-02-15 15:45 UTC (android_frameworks_base)
+1 month ago
+Bump Security String to 2025-01-05
+2025-02-07 16:48 UTC (android_build)
+1 month ago
+Disable factory reset in DSU mode
+2025-01-26 18:29 UTC (android_packages_apps_Settings)
+1 month ago
+[CDM][NLS] Check if the NLS service has an intent-filter
+2025-01-26 18:29 UTC (android_packages_apps_Settings)
+1 month ago
+enforce the calling package is the default dialer for VisualVoicemail
+2025-01-26 18:28 UTC (android_packages_services_Telephony)
+1 month ago
+Resolve incomplete fix for SMP authentication bypass
+2025-01-26 18:28 UTC (android_packages_modules_Bluetooth)
+1 month ago
+libbinder: Parcel: validate read data before write
+2025-01-26 18:26 UTC (android_frameworks_native)
+1 month ago
+libbinder: Parcel: grow rejects large data pos
+2025-01-26 18:26 UTC (android_frameworks_native)
+1 month ago
+binder: fix FD handling in continueWrite
+2025-01-26 18:26 UTC (android_frameworks_native)
+1 month ago
+Always show all approved apps
+2025-01-26 18:25 UTC (android_frameworks_base)
+1 month ago
+Pass SafeActivityOptions with actual caller for startActivityInTF
+2025-01-26 18:25 UTC (android_frameworks_base)
+1 month ago
+Update checkKeyIntent
+2025-01-26 18:25 UTC (android_frameworks_base)
+1 month ago
+Fix allowlist token issues
+2025-01-26 18:25 UTC (android_frameworks_base)
+1 month ago
+Enforce hard limits on hosts per package and widgets per host.
+2025-01-26 18:25 UTC (android_frameworks_base)
+1 month ago
+enforce limits for VisualVoicemailSmsFilterSettings properties
+2025-01-26 18:25 UTC (android_frameworks_base)
+1 month ago
+Fix potential overflow when calculating ImageSize
+2025-01-26 18:21 UTC (android_external_giflib)
+1 month ago
+Track our own forks for 2025-01 ASB patching
+2025-01-26 18:21 UTC (android)
+2 months ago
+Import `yes.pl` from https://github.com/mubaris/yes
+2024-12-30 13:07 UTC (android_prebuilts_tools-lineage)
+2 months ago
+Regenerate contributors cloud (2024-12-22)
+2024-12-23 22:42 UTC (android_packages_apps_LineageParts)
+2 months ago
+Allow spoofing signingInfo for microG Companion/Services
+2024-12-16 20:52 UTC (android_frameworks_base)
+2 months ago
+Bump Security String to 2024-12-05
+2024-12-10 14:09 UTC (android_build)
+2 months ago
+Fix Dynamic Permission group auto grant behaivor
+2024-12-10 14:08 UTC (android_packages_modules_Permission)
+2 months ago
+Fix OOB writes in gatt_sr.cc
+2024-12-10 14:08 UTC (android_packages_modules_Bluetooth)
+2 months ago
+Encrypt LE link immediately on reconnection
+2024-12-10 14:08 UTC (android_packages_modules_Bluetooth)
+2 months ago
+Fix "GATT Read Multiple Variable Response" builder
+2024-12-10 14:08 UTC (android_packages_modules_Bluetooth)
+2 months ago
+Fix OOB write in build_read_multi_rsp of gatt_sr.cc
+2024-12-10 14:08 UTC (android_packages_modules_Bluetooth)
+2 months ago
+Prevent clickjacking attack in DocsUi.
+2024-12-10 14:08 UTC (android_packages_apps_DocumentsUI)
+2 months ago
+Allow uninstalling DMRH when not used for management
+2024-12-10 14:07 UTC (android_frameworks_base)
+2 months ago
+Properly handle onNullBinding() in appwidget service.
+2024-12-10 14:07 UTC (android_frameworks_base)
+2 months ago
+Block clipboard UI when device is locked
+2024-12-10 14:07 UTC (android_frameworks_base)
+2 months ago
+Prevent overflow when growing an SkRegion's RunArray
+2024-12-10 14:05 UTC (android_external_skia)
+2 months ago
+RESTRICT AUTOMERGE: Check for size overflow before allocating SkMask data
+2024-12-10 14:05 UTC (android_external_skia)
+2 months ago
+[pdf] Bounds check in skia_alloc_func
+2024-12-10 14:05 UTC (android_external_skia)
+3 months ago
+roomservice: check all device repositories
+2024-12-04 16:58 UTC (android_vendor_lineage)
+3 months ago
+atv: Don't include scaling rc by hand
+2024-12-04 05:29 UTC (android_device_lineage_atv)
+3 months ago
+trust: Respect filtered components when showing apps list
+2024-11-23 09:56 UTC (android_packages_apps_Trebuchet)
+3 months ago
+DeskClock: Fix screensaver style
+2024-11-18 09:59 UTC (android_packages_apps_DeskClock)
+3 months ago
+DeskClock: Fix display of AM/PM on screensaver
+2024-11-18 09:56 UTC (android_packages_apps_DeskClock)
+3 months ago
+Bump Security String to 2024-11-05
+2024-11-16 16:50 UTC (android_build)
+3 months ago
+Track our own forks for 2024-11 ASB patching
+2024-11-16 16:50 UTC (android)
+3 months ago
+Prevent apps from renaming files they don't own
+2024-11-16 16:50 UTC (android_packages_providers_MediaProvider)
+3 months ago
+Revert "Unbind CS if connection is not created within 15 seconds."
+2024-11-16 16:49 UTC (android_packages_services_Telecomm)
+3 months ago
+Fix security isseu by change the field in WifiConfig
+2024-11-16 16:48 UTC (android_packages_modules_Wifi)
+3 months ago
+Fix OOB of L2CAP_CMD_CREDIT_BASED_CONN_RES
+2024-11-16 16:48 UTC (android_packages_modules_Bluetooth)
+3 months ago
+Checks cross user permission before handling intent
+2024-11-16 16:46 UTC (android_packages_apps_Settings)
+3 months ago
+startActivityForResult with new Intent
+2024-11-16 16:46 UTC (android_packages_apps_Settings)
+3 months ago
+RESTRICT AUTOMERGE Stops hiding a11y services with the same package+label as an activity.
+2024-11-16 16:46 UTC (android_packages_apps_Settings)
+3 months ago
+Restrict access to directories
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+RESTRICT AUTOMERGE Clear app-provided shortcut icons
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+Disallow device admin package and protected packages to be reinstalled as instant.
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+Set no data transfer on function switch timeout for accessory mode
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+Check more URIs in notifications
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+RingtoneManager: allow video ringtone URI
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+Remove authenticator data if it was disabled.
+2024-11-16 16:44 UTC (android_frameworks_base)
+3 months ago
+RESTRICT AUTOMERGE: Avoid potential overflow when allocating 3D mask from emboss filter
+2024-11-16 16:35 UTC (android_external_skia)
+3 months ago
+atv: init: Allow opt-out of forced 1080p scaling
+2024-11-11 19:09 UTC (android_device_lineage_atv)
+4 months ago
+lineage: config: Allow using an env var to enable insecure ADB
+2024-11-09 12:26 UTC (android_vendor_lineage)
+4 months ago
+Revert "BatteryMeterView: Hide icon on battery-less devices"
+2024-10-31 08:58 UTC (android_frameworks_base)
+4 months ago
 Bump Security String to 2024-10-05
 2024-10-20 14:11 UTC (android_build)
-1 day ago
+4 months ago
 RESTRICT AUTOMERGE Disallow unexpected incoming HID connections
 2024-10-20 14:08 UTC (android_packages_modules_Bluetooth)
-1 day ago
+4 months ago
 RESTRICT AUTOMERGE FRP bypass defense in App battery usage page
 2024-10-20 14:07 UTC (android_packages_apps_Settings)
-1 day ago
+4 months ago
 Do not accept zip files with invalid headers.
 2024-10-20 14:01 UTC (android_libcore)
-1 day ago
+4 months ago
 [RESTRICT AUTOMERGE] Check whether installerPackageName contains only valid characters
 2024-10-20 13:59 UTC (android_frameworks_base)
-1 day ago
+4 months ago
 Prevent Sharing when FRP enforcement is in effect
 2024-10-20 13:59 UTC (android_frameworks_base)
-1 day ago
+4 months ago
 Update AccountManagerService checkKeyIntent.
 2024-10-20 13:59 UTC (android_frameworks_base)
-1 day ago
+4 months ago
 Fail parseUri if end is missing
 2024-10-20 13:59 UTC (android_frameworks_base)
-24 days ago
+5 months ago
 fixup!^2 BatteryMeterView: Hide icon on battery-less devices
 2024-09-28 08:43 UTC (android_frameworks_base)
-27 days ago
+5 months ago
 Disable OMX for 64b_only devices.
 2024-09-25 00:53 UTC (android_build)
-28 days ago
-Silence most cast receiver logging
-2024-09-23 22:55 UTC (android_device_lineage_atv)
-
 ----------------------------------------------------------------------
 
 # Device LeMax2 | MaxPlus | Changelog | Fixes
